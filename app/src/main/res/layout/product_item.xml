@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    android:id="@+id/main_container">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/TextView_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Product Name:"/>
+
+        <TextView
+            android:id="@+id/TextView_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Product Description:"/>
+
+        <TextView
+            android:id="@+id/TextView_Seller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Product Seller:"/>
+
+        <TextView
+            android:id="@+id/TextView_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Product Price:"/>
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:contentDescription="@string/image_of_pet_food_product"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
